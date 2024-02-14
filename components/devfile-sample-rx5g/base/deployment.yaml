@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rx5g
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0050-tenant/tkwch-fix-0075-0050-app/devfile-sample-rx5g@sha256:456cc273bf4adc0f5ed67f490b0a1d0f82f5642a41fad75c360ea587c135b091
         name: my-nodejs
         ports:
         - containerPort: 3001
