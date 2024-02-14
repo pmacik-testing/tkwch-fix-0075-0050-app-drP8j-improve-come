@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rx5g
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0050-tenant/tkwch-fix-0075-0050-app/devfile-sample-rx5g@sha256:456cc273bf4adc0f5ed67f490b0a1d0f82f5642a41fad75c360ea587c135b091
+        name: my-nodejs
+        resources: {}
+status: {}
